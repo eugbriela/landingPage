@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Landing Page</title>
+</head>
+<body>
+    <menu id="menu">
+        <a href="index.html" class="logo">
+            <i class='bx bx-code-alt'></i>
+        </a>
+        <nav class="navigation">
+            <a href="#home" class="nav-item">Home</a>
+            <a href="#eng" class="nav-item">ENG</a>
+            <a href="#web" class="nav-item">WEB</a>
+            <a href="#met" class="nav-item">MET</a>
+            <a href="#contato" class="nav-item">Contato</a>
+        </nav>
+    </menu>
+
+    <main>
+        <section id="inicio">
+            <div class="content-inicio">
+                <h3>Curso de</h3>
+                <h1>Análise e Desenvolvimento de Sistemas</h1>
+                <p>"A melhor maneira de prever o futuro é criá-lo."</p>
+            </div>
+
+            <div class="img-inicio">
+                <img src="img/logo.png" alt="img-curso" class="img-curso">
+            </div>
+        </section>
+
+        <section id="home">
+            <h2>Técnologo em Análise e Desenvolvimento de Sistemas</h2>
+
+            <div >
+                <h3 class="intuito">Sobre curso</h3>
+                <p> O Tecnólogo em Análise e Desenvolvimento de Sistemas é um profissional capacitado para atuar em todas as etapas do
+                     ciclo de vida de um software, desde a análise e especificação dos requisitos até a implementação, testes, manutenção e evolução do sistema. Ele possui uma visão holística do processo de desenvolvimento, combinando conhecimentos em diversas áreas.</p>
+            </div>
+
+            <div>
+                <h3 class="intuito">Áreas de atuação</h3>
+                <p >Análise de Sistemas, que faz o levantamento e documentação das necessidades dos usuários e do negócio, transformando-as em requisitos funcionais e não funcionais para o software.
+                    Projeto de Sistemas, na parte de elaboração da arquitetura do software, definindo os componentes, interfaces e tecnologias que serão utilizadas.
+                    Desenvolvimento de Software, atuando na implementação do código-fonte do software, utilizando linguagens de programação adequadas e seguindo boas práticas de desenvolvimento.
+                    Testes de Software - Realização de testes para garantir que o software atenda aos requisitos especificados e funcione conforme o esperado.
+                    Implementação e Manutenção, atua na instalação do software no ambiente de produção, suporte aos usuários, correção de falhas e implementação de novas funcionalidades.</p>
+            </div>
+        </section>
+
+        <center>
+            <hr>
+        </center>
+
+        <section id="eng">
+            <h2 id="home">Engenharia de Software</h2>
+
+            <div class="image">
+                <img src="img/engsoft.png" alt="imgmateria" class="img-materia">
+            </div>
+
+            <div class="content-materia">
+
+                <p class="descricao-materia">A Engenharia de Software é a área que se dedica à aplicação de princípios de engenharia no desenvolvimento de softwares. 
+                    Mais do que apenas programar, o engenheiro de software utiliza técnicas e metodologias para criar sistemas robustos, eficientes, seguros e que atendam às necessidades dos usuários.</p>
+                <p class="descricao-materia">A Engenharia de Software é uma área dinâmica e em constante evolução, acompanhando o ritmo acelerado das inovações tecnológicas. Novos frameworks, linguagens de programação, ferramentas e metodologias surgem frequentemente, 
+                    exigindo dos profissionais atualização constante de seus conhecimentos e habilidades.</p>
+
+                <div class="conteudo">
+                    
+                    <div id="content-summary">
+                        <button id="iniciar" onclick="abrir()">Iniciar Simulado da Matéria</button>
+                    </div>
+                  
+                
+                    <h3 id="pessoa" style="display: none;"></h3>
+                
+                    <div id="simulado">
+                        <h3>Simulado de Engenharia de Software</h3>
+                        <div id="questao"></div>
+                        <div id="alternativa"></div>
+                        <button onclick="verPosicao()">Próximo</button>
+                    </div>
+                
+                    <script src="simulado.js"></script>
+                </div>              
+            </div>
+        </section>
+
+        <center>
+            <hr>
+        </center>
+
+        <section id="web">
+            <h2 id="home">Desenvolvimento WEB</h2>
+
+            <div class="image">
+                <img src="img/webimg.png" alt="imgmateria" class="img-materia">
+            </div>
+
+            <div class="content-materia">
+                <p class="descricao-materia">A Engenharia de Software é a área que se dedica à aplicação de princípios de engenharia no desenvolvimento de softwares. 
+                    Mais do que apenas programar, o engenheiro de software utiliza técnicas e metodologias para criar sistemas robustos, eficientes, seguros e que atendam às necessidades dos usuários.</p>
+                <p class="descricao-materia">A Engenharia de Software é uma área dinâmica e em constante evolução, acompanhando o ritmo acelerado das inovações tecnológicas. Novos frameworks, linguagens de programação, ferramentas e metodologias surgem frequentemente, 
+                    exigindo dos profissionais atualização constante de seus conhecimentos e habilidades.</p>
+
+                <div class="conteudo">
+                    
+                    <div id="content-summary1">
+                        <button id="iniciar1" onclick="abrir1()">Iniciar Simulado da Matéria</button>
+                    </div>
+                  
+                
+                    <h3 id="pessoa1" style="display: none;"></h3>
+                
+                    <div id="simulado1">
+                        <h3>Simulado de Desenvolvimento WEB</h3>
+                        <div id="questao1"></div>
+                        <div id="alternativa1"></div>
+                        <button onclick="verPosicao1()">Próximo</button>
+                    </div>
+                
+                </div>              
+            </div>
+        </section>
+
+        <center>
+            <hr>
+        </center>
+
+        <section id="met">
+            <h2 id="home">Metodologia de Pesquisa Científica</h2>
+
+            <div class="image">
+                <img src="img/metcie.png" alt="imgmateria" class="img-materia">
+            </div>
+
+            <div class="content-materia">
+                <p class="descricao-materia">A Engenharia de Software é a área que se dedica à aplicação de princípios de engenharia no desenvolvimento de softwares. 
+                    Mais do que apenas programar, o engenheiro de software utiliza técnicas e metodologias para criar sistemas robustos, eficientes, seguros e que atendam às necessidades dos usuários.</p>
+                <p class="descricao-materia">A Engenharia de Software é uma área dinâmica e em constante evolução, acompanhando o ritmo acelerado das inovações tecnológicas. Novos frameworks, linguagens de programação, ferramentas e metodologias surgem frequentemente, 
+                    exigindo dos profissionais atualização constante de seus conhecimentos e habilidades.</p>
+
+                <div class="conteudo">
+                    
+                    <div id="content-summary2">
+                        <button id="iniciar2" onclick="abrir2()">Iniciar Simulado da Matéria</button>
+                    </div>
+                  
+                
+                    <h3 id="pessoa2" style="display: none;"></h3>
+                
+                    <div id="simulado2">
+                        <h3>Simulado de Metodologia de Pesquisa Científica</h3>
+                        <div id="questao2"></div>
+                        <div id="alternativa2"></div>
+                        <button onclick="verPosicao2()">Próximo</button>
+                    </div>
+                
+                </div> 
+                             
+            </div>       
+        </section>
+
+        <center>
+            <hr>
+        </center>
+
+        <div id="resultado">
+            <button onclick="mostrarResultadoFinal()">---> Mostrar Resultado Final <---</button>
+        </div>
+        
+
+
+        <section id="contato">
+            <form action="" id="form-contato">
+                <h2>Contato</h2>
+
+                <input type="text" placeholder="Nome" required>
+                <input type="text" placeholder="E-mail" required>
+                <input type="text" placeholder="Telefone" required>
+                <textarea placeholder="Digite sua menssagem" required></textarea>
+
+                <button>Enviar</button>
+            </form>
+        </section>
+    </main>
+
+
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
